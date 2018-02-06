@@ -25,6 +25,7 @@ public class WebScrapper {
     }
     ////////////////////////////////////////////////////////////////////////////
     public static void main(String[] unused) {
-        System.out.print("hello: part 2");
+        String test = urlToString("http://erdani.com/tdpl/hamlet.txt)");
+        System.out.print(test);
     }
 }
